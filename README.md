@@ -2,6 +2,12 @@
 
 React + FastAPI + PostgreSQL app to search, shortlist and compare commercial properties.
 
+Full stack web app for finding commercial properties like offices, shops and warehouses. Users can search by location, size, rent, deposit and budget. They can shortlist properties and compare up to three side by side. The front end is React, the backend is a FastAPI REST API, and the data is stored in PostgreSQL
+
+Architecture
+
+"It's a three-tier architecture. The React app calls the FastAPI backend over REST. The backend uses SQLAlchemy to talk to PostgreSQL. Uploaded photos are saved on the server and served as static files."
+
 ## 1. Database
 
 
