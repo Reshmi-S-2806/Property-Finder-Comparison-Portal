@@ -4,9 +4,9 @@ React + FastAPI + PostgreSQL app to search, shortlist and compare commercial pro
 
 ## 1. Database
 
-docker compose up -d          # starts PostgreSQL on port 5433
+
 ```
-(or create a database named `propertyfinder` in your own PostgreSQL install and set DATABASE_URL)
+(create a database named `propertyfinder` in your own PostgreSQL install and set DATABASE_URL)
 
 ## 2. Backend
 
